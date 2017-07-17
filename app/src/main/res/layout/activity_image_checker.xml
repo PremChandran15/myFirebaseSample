@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.schoolofskills.myfirebasesample.ImageCheckerActivity"
+    android:background="@drawable/background"
+    >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/defectsTable"
+        android:layout_marginLeft="5dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:tag="@string/rowAddButton"
+            android:gravity="center"
+            android:id="@+id/annualAddButtonTableRow">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/addButtonDefects"
+                android:text="Add+"
+                android:layout_gravity="right"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:tag="@string/rowText"
+            android:gravity="center"
+            android:id="@+id/annual73TextView"
+            android:weightSum="1.0">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:layout_weight="0.05"
+                android:layout_marginRight="2dp"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Defects Detected"
+                android:textColor="#000000"
+                android:background="@drawable/cell_shape"
+                android:id="@+id/DefectsTextView"
+                android:padding="5dp"
+                android:textSize="12sp"
+                android:layout_weight="0.55"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:text="Severity"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:layout_weight="0.2"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell_shape"
+                android:text="Action"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:textSize="12sp"
+                android:layout_weight="0.2"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:tag="@string/row1"
+            android:id="@+id/annual74"
+            android:weightSum="1.0">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/delete_button"
+                android:gravity="center"
+                android:layout_marginRight="2dp"
+                android:textAlignment="center"
+                android:id="@+id/deleteRowButton"
+                android:layout_weight="0.05"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="12sp"
+                android:background="@drawable/cell_shape"
+                android:textAlignment="center"
+                android:hint="Defects Detected"
+                android:id="@+id/annual74Value1"
+                android:padding="5dp"
+                android:layout_weight="0.55"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="12sp"
+                android:background="@drawable/cell_shape"
+                android:textAlignment="center"
+                android:hint="Severity"
+                android:id="@+id/annual74Value2"
+                android:padding="5dp"
+                android:layout_weight="0.2"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textSize="12sp"
+                android:background="@drawable/cell_shape"
+                android:textAlignment="center"
+                android:hint="action"
+                android:id="@+id/annual74Value3"
+                android:padding="5dp"
+                android:layout_weight="0.2"/>
+
+        </TableRow>
+
+    <!--<ImageView-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="160dp"-->
+        <!--android:id="@+id/imageView2"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:src="@drawable/rlde2"-->
+        <!--android:alpha="1"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Please click the button to view the image uploaded."-->
+        <!--android:id="@+id/imageCheckerTextView"-->
+        <!--android:layout_below="@+id/imageView2"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:textSize="15sp"-->
+        <!--android:singleLine="false"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textStyle="bold"/>-->
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/imageCheckerTextView"-->
+        <!--android:text="Check Image"-->
+        <!--android:id="@+id/buttonImageChecker"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="#1d37cc"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:layout_marginTop="20dp"/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/buttonImageChecker"-->
+        <!--android:id="@+id/checkImageView"-->
+        <!--android:layout_marginTop="10dp"/>-->
+    </TableLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/defectsTable"
+            android:text="Check IDs"
+            android:id="@+id/checkIdButton"
+            android:background="#1d37cc"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/checkIdButton"
+        android:text="Update Database"
+        android:id="@+id/UpdateDatabaseButton"
+        android:background="#1d37cc"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

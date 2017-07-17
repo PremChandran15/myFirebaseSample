@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MyFirebaseSample</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_sign_up_activty">SignUpActivty</string>
+
+    <string name="progress_dialog_loading">Loading…</string>
+    <string name="progress_dialog_authenticating_with_firebase">Authenticating with Firebase…</string>
+    <string name="progress_dialog_creating_user_with_firebase">Attempting to create account…</string>
+
+    <string name="capacitance">capacitanceTest</string>
+    <string name="resistance">resistanceTest</string>
+    <string name="voltage">voltage</string>
+    <string name="current">currentTest</string>
+    <string name="flowmeter">flowmeter</string>
+    <string name="tap">tapTest</string>
+    <string name="pipe">pipeTest</string>
+    <string name="rowAddButton">Row Add Button</string>
+    <string name="rowText">Row Text</string>
+    <string name="row1">Defect 1</string>
+
+    <!-- Errors -->
+    <string name="dialog_title_error">Error</string>
+    <string name="error_message_failed_sign_in_no_network">There was a problem with the network connection.\nAre you sure you\'re connected to the internet?</string>
+    <string name="log_error_invalid_provider">"Invalid provider: "</string>
+    <string name="log_error_failed_to_change_password">"Failed to change the password: "</string>
+    <string name="error_invalid_email_not_valid">%s is not a valid email</string>
+    <string name="error_message_email_issue">There was an error with your email; please check that you entered it correctly.</string>
+    <string name="error_you_didnt_give_permissions">You must give ShoppingList++ permission to access your Google account information if you want to use Google sign-in.</string>
+    <string name="error_email_taken">The email is already taken.</string>
+    <string name="error_invalid_password_not_valid">Please enter a password that is at least 6 characters long.</string>
+    <string name="error_cannot_be_empty">This cannot be empty.</string>
+    <string name="title_activity_inspection1">Inspection1Activity</string>
+    <string name="action_settings">Settings</string>
+
+    <!--for photo upload-->
+
+        <string name="customGallery">Custom Gallery</string>
+        <string name="mainTitle">Select MultipleImages From Gallery</string>
+        <string name="openCustomGallery">Open Custom Gallery</string>
+        <string name="selectedImages">Selected Images will display below</string>
+
+
+
+</resources>

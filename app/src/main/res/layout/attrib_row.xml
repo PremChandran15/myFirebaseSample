@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:id="@+id/annual74"
+    android:weightSum="1.0">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="-"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/delete_button"
+        android:gravity="center"
+        android:layout_marginRight="2dp"
+        android:textAlignment="center"
+        android:id="@+id/deleteRowButton2"
+        android:layout_weight="0.05"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="12sp"
+        android:background="@drawable/cell_shape"
+        android:textAlignment="center"
+        android:hint="Defects Detected"
+        android:id="@+id/annual74Value1"
+        android:padding="5dp"
+        android:layout_weight="0.55"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="12sp"
+        android:background="@drawable/cell_shape"
+        android:textAlignment="center"
+        android:hint="Severity"
+        android:id="@+id/annual74Value2"
+        android:padding="5dp"
+        android:layout_weight="0.2"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="12sp"
+        android:background="@drawable/cell_shape"
+        android:textAlignment="center"
+        android:hint="action"
+        android:id="@+id/annual74Value3"
+        android:padding="5dp"
+        android:layout_weight="0.2"/>
+
+</TableRow>

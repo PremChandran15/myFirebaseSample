@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "672305565309",
+    "firebase_url": "https://crackling-heat-2430.firebaseio.com",
+    "project_id": "crackling-heat-2430",
+    "storage_bucket": "crackling-heat-2430.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672305565309:android:bfd77c7c451ea0f5",
+        "android_client_info": {
+          "package_name": "com.schoolofskills.myfirebasesample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672305565309-kq55fhk4ruans228rdpsmr1c5inf8c91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAmzyewAiG1l09sPWh89IOpWJ_gd1zmZE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
